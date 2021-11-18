@@ -52,7 +52,7 @@ public class CompareFiles {
 
             if (!fileLine1.equals(fileLine2)) {
 
-                System.out.printf("Difference on line %d:\n %s: %s\n%s: %s\n",
+                System.out.printf("Difference on line %d:\n%s: %s\n%s: %s\n",
                         lineNumber, files[0], fileLine1, files[1], fileLine2);
                 System.exit(0);
 
@@ -62,7 +62,7 @@ public class CompareFiles {
 
         if (inFile1.hasNext()) {
 
-            System.out.printf("%s is bigger than %s\n", files[0], files[1]);
+            System.out.printf("%s is bigger than %s\n.", files[0], files[1]);
 
         } else if (inFile2.hasNext()) {
 
