@@ -10,7 +10,7 @@ public class CompareFiles {
 
         if (files.length != 2) {
 
-            System.out.println("Usage: java -jar CompareFiles <file1> <file2>");
+            System.out.println("Usage: java -jar CompareFiles.jar <file1> <file2>");
             System.exit(1);
 
         }
@@ -41,7 +41,7 @@ public class CompareFiles {
 
         }
 
-        int lineNumber = 1;
+        int lineNumber;
         String fileLine1;
         String fileLine2;
 
