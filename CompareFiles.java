@@ -53,7 +53,7 @@ public class CompareFiles {
             if (!fileLine1.equals(fileLine2)) {
 
                 System.out.printf("Difference on line %d:\n %s: %s\n%s: %s\n",
-                        files[0], fileLine1, files[1], fileLine2);
+                        lineNumber, files[0], fileLine1, files[1], fileLine2);
                 System.exit(0);
 
             }
